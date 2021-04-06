@@ -12,7 +12,7 @@ Time spent: **X** hours spent in total
     - Tested in version: 3.9
     - Fixed in version: 5.1.1 
   - [ ] GIF Walkthrough: 
-    <img src="xssexploit.gif" width="800">
+  - [ ] <img src="xssexploit.gif" width="800">
 
   - [ ] Steps to recreate: Login as admin. Create media post and upload a picture. Edit the comment or caption file with this script: "<IMG SRC="#" ONERROR="alert('XSS')"/>".
   - [ ] Affected source code:
@@ -23,7 +23,7 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.2.2
     - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough:
-    <img src="xssshortcode.gif" width="800">
+  - [ ] <img src="xssshortcode.gif" width="800">
   - [ ] Steps to recreate: Create new post. Embed a youtube link within the text box, replacing "<" and ">" with "\x3c" and "\x3e".
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
