@@ -16,9 +16,9 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: Login as admin. Create media post and upload a picture. Edit the comment or caption file with this script: "<IMG SRC="#" ONERROR="alert('XSS')"/>".
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/0292de60ec78c5a44956765189403654fe4d080b)
-### 2. (Required) Vulnerability Name or ID
-  - [ ] Summary: WordPress 4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds/CVE-2015-6535
-    - Vulnerability types: XSS vulnerability using embed Youtube url shortcode. 
+### 2. (Required) WordPress 4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds/CVE-2015-6535
+  - [ ] Summary: XSS vulnerability using embed Youtube url shortcode.
+    - Vulnerability types: XSS  
     - Tested in version: 4.2.2
     - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough:  <img src="xssshortcode.gif" width="800">
