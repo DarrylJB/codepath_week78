@@ -11,7 +11,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types:
     - Tested in version:
     - Fixed in version: 
-  - [ ] GIF Walkthrough: ![image](https://user-images.githubusercontent.com/78522841/113652568-003ea900-9662-11eb-8850-0294253bcec2.png)
+  - [ ] GIF Walkthrough: <img src="xssexploit.gif" width="800"
 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
