@@ -6,25 +6,25 @@ Time spent: **X** hours spent in total
 
 ## Pentesting Report
 
-### 1. (Required) Vulnerability Name or ID
-  - [ ] Summary:  
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+### 1. (Required) Comment Cross-Site Scripting/CVE-2019-9787 
+  - [ ] Summary: Media post comment section and caption section allows for XSS attack.  
+    - Vulnerability types: XSS
+    - Tested in version: 3.9
+    - Fixed in version: 5.1.1 
   - [ ] GIF Walkthrough: <img src="xssexploit.gif" width="800">
 
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: Login as admin. Create media post and upload a picture. Edit the comment or caption file with this script: "<IMG SRC="#" ONERROR="alert('XSS')"/>".
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://github.com/WordPress/WordPress/commit/0292de60ec78c5a44956765189403654fe4d080b)
 ### 2. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  - [ ] Summary: WordPress 4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds/CVE-2015-6535
+    - Vulnerability types: XSS vulnerability using embed Youtube url shortcode. 
+    - Tested in version: 4.2.2
+    - Fixed in version: 4.2.13
+  - [ ] GIF Walkthrough:  <img src="xssshortcode.gif" width="800">
+  - [ ] Steps to recreate: Create new post. Embed a youtube link within the text box, replacing "<" and ">" with "\x3c" and "\x3e".
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
 ### 3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
